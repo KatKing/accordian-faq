@@ -1,0 +1,63 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "Arial", sans-erif;
+	color: #666;
+	font-size: 1.2rem;
+	background: #f9f9f9;
+	line-height: 1.6em;
+}
+
+ul, li {
+	list-style: none;
+}
+
+#container {
+	width: 60%;
+	margin: 30px auto;
+	overlfow: auto;
+}
+
+h1 {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.title{
+	height: 40px;
+	background-color: pink;
+	text-align: center;
+	color: #fff;
+}
+
+.faq li {
+	padding: 10px;
+}
+
+.question {
+	background: #eee;
+	font-weight: bold;
+	font-size: 120%;
+	border-bottom: 1px solid #ddd;
+	cursor: pointer;
+}
+
+.answer {
+	background: #ddd;
+	display: none;
+}
+
+.rotate {
+	transform: rotate(90deg);
+	moz-transform: rotate(90deg);
+	webkit-transform: rotate(90deg);
+}
+
+@media (max-width: 800px;){
+	#container {
+		width: 90%;
+	}
+}
